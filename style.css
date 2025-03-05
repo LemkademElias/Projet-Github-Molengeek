@@ -1,6 +1,16 @@
-*{
+/* ORGANISATION GLOBALE */
+* {
+    box-sizing: border-box; /* Inclut padding et bordure dans la taille totale de l'élément */
+}
+
+body {
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px; /* Espacement entre les sections */
+    background-color: rgb(23, 32, 86);
 }
 
 #section-header {
@@ -21,4 +31,64 @@ nav ul {
     list-style: none;
     gap: 20px;
     font-size: 20px;
+}
+
+/* STYLE DES SECTIONS */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* S'assure que la section prend toute la largeur de l'écran */
+    max-width: 100%; /* Limite la largeur à 100% de l'écran */
+}
+
+/* TITRE DE CHAQUE SECTION */
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/* CONTAINER DES CARTES */
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Espacement entre les cartes */
+    max-width: 90%; /* Limite la largeur des cartes à 90% de la largeur de la section */
+    overflow-x: auto; /* Ajoute un scroll horizontal si nécessaire */
+}
+
+/* STYLE DES CARTES */
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 280px; /* Largeur fixe pour chaque carte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 0 auto; /* Empêche les cartes de se réduire ou de s'étirer */
+}
+
+/* IMAGE DANS LES CARTES */
+.card img {
+    width: 100%; /* L'image prend toute la largeur de la carte */
+    height: auto; /* Maintient le ratio de l'image */
+    border-radius: 5px;
+    object-fit: cover; /* Permet à l'image de couvrir l'espace sans déformation */
+}
+
+/* STYLE DU BOUTON */
+.card button {
+    background-color: rgb(171, 183, 3);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card button:hover {
+    background: #b30000;
 }
