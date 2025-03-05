@@ -1,0 +1,88 @@
+/* Footer styles */
+footer {
+    background-color: black;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-menu li {
+    margin: 0 20px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.footer-menu a:hover {
+    color: #f1c40f;  /* Gold color on hover */
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer-info div {
+    flex: 1;
+    margin: 10px;
+    min-width: 220px;
+}
+
+.footer-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-info p, .footer-info a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-info a:hover {
+    color: #f1c40f;  /* Gold color on hover */
+}
+
+.social-media {
+    margin-bottom: 30px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #f1c40f;  /* Gold color on hover */
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    color: white;
+}
