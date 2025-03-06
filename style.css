@@ -91,9 +91,6 @@ section h2 {
     border-radius: 5px;
 }
 
-.card button:hover {
-    background: #b30000;
-}
 /* Footer styles */
 footer {
     background-color: black;
