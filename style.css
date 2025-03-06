@@ -35,6 +35,10 @@ nav ul {
     font-size: 20px;
 }
 
+nav ul :hover {
+    color:#f1c40f;
+}
+
 /* STYLE DES SECTIONS */
 section {
     display: flex;
