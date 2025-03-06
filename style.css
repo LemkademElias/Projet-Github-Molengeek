@@ -7,7 +7,6 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    gap: 150px; 
     background-color: rgb(23, 32, 86);
 }
 
@@ -42,8 +41,9 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%; /* S'assure que la section prend toute la largeur de l'écran */
-    max-width: 100%; /* Limite la largeur à 100% de l'écran */
+    margin-bottom: 150px;
+    width: 100%; 
+    max-width: 100%; 
 }
 
 /* TITRE DE CHAQUE SECTION */
