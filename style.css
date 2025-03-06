@@ -13,6 +13,10 @@ body {
     background-color: rgb(23, 32, 86);
 }
 
+#video-plein-ecran {
+    
+}
+
 /* STYLE DES SECTIONS */
 section {
     display: flex;
