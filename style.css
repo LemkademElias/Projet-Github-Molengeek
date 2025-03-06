@@ -1,6 +1,5 @@
-/* ORGANISATION GLOBALE */
 * {
-    box-sizing: border-box; /* Inclut padding et bordure dans la taille totale de l'élément */
+    box-sizing: border-box; 
 }
 
 body {
@@ -8,8 +7,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 150px; /* Espacement entre les sections */
+    gap: 150px; 
     background-color: rgb(23, 32, 86);
 }
 
